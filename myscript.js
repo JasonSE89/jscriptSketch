@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	$(".grid").mouseenter(function(){
-			$(this).css("background-color", "#000000");
+	$("div").mouseenter(function(){
+			$(this).css("background-color", "black");
 			}
 
 		);
