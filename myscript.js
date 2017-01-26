@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("div").mouseenter(function(){
+	$("td").mouseenter(function(){
 			$(this).css("background-color", "black");
 			}
 
