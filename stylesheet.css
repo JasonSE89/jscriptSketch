@@ -1,9 +1,29 @@
 table{
+	position: relative;
+	top: 50px;
 	margin: 0 auto;
 	border: 1px solid #000000;
 	width: 400px;
 	height: 400px;
 	border-collapse: collapse;
 }
+
+.wrapper{
+	text-align: center;
+}
+
+#clear{
+	font-family: arial, sans-serif;
+	font-size: 30px;
+	position: relative;
+	margin: 0 auto;
+	top: 30px;
+}
+
+.reset{
+	background-color: white;
+}
+
+
 
 
