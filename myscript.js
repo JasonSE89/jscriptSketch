@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 	 $("td").mouseenter(function(){
-	 		$(this).css("background-color", "black");
+	 		$(this).css("background-color", "#000000");
 			}
 
 	 	);
@@ -10,7 +10,7 @@ $(document).ready(function(){
 	{
 		click: function()
 		{
-			$("td").css("background-color", "white");
+			$("td").css("background-color", "#edffdb");
 		
 	
 }
@@ -20,7 +20,7 @@ $(document).ready(function(){
 );
 
 function dimensions(){
-	var dim = prompt("What do you want the dimensions to be");
+	var dim = prompt("Enter Dimensions");
 	$("table").remove();
 	$("body").append("<table></table>");
 	for (var i = dim; i > 0; i--) {
