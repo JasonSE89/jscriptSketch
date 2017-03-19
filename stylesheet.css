@@ -27,16 +27,29 @@ table{
 	text-align: center;
 }
 
-#clear{
+button{
 	font-family: sans-serif;
 	font-size: 15px;
 	position: absolute;
 	margin: 0 auto;
 	background-color: #fcfcfc;
 	top: 475px;
-	left: 760px;
 	border-radius: 100px;
 }
+
+#clear{
+	left: 700px;
+}
+
+#erase{
+	right: 510px;
+}
+
+#pencil{
+	left: 510px;
+}
+
+
 
 .reset{
 	background-color: #fcfcfc;

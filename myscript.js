@@ -1,21 +1,36 @@
 $(document).ready(function(){
 
 
-	 $("td").mouseenter(function(){
-	 		$(this).css("background-color", "#000000");
-			}
-
-	 	);
+	 pencil();
 	$("#clear").on(
 	{
 		click: function()
 		{
 			$("td").css("background-color", "#edffdb");
 		
-	
+			dimensions();
 }
 }
 );
+	$("#pencil").on(
+	{
+		click: function()
+		{
+			pencil();
+		}
+	}
+		);
+
+	$("#erase").on(
+	{
+		click: function()
+		{
+			erase();
+		}
+	
+
+	}
+	);
 }
 );
 
@@ -34,4 +49,20 @@ function dimensions(){
 			}
 
 	 	);
+}
+
+function erase(){
+	$("td").mouseenter(function() {
+		$(this).css("background-color", "#edffdb");
+		}
+
+	);
+}
+
+function pencil(){
+	$("td").mouseenter(function()
+	{
+		$(this).css("background-color", "#000000");
+	}	
+		);
 }
